@@ -1,6 +1,7 @@
-#Database for PCM Heat Transfer Enhancement
-
-##How to Submit Experimental Data
+Database for PCM Heat Transfer Enhancement
+==========================================
+How to Submit Experimental Data
+-------------------------------
 Experimental and Modeling Results will be submitted, stored, and made publicly available on the MaCFP GitHub Repository. Experimental data may be shared by submitting pull requests to this repository or by sending data via email to [Dr. Morgan Bruns] (mailto:brunsmc@vmi.edu).
 
 ##File Format
