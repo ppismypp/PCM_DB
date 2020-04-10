@@ -2,19 +2,18 @@ Database for PCM Heat Transfer Enhancement
 ==========================================
 How to Submit Experimental Data
 -------------------------------
-This database is created publicly for storing and shareing data for the PCM heat ransfer enhancement research. Please upload the numerical data and experimental data into their related folders. 
+This database is created publicly for storing and shareing data for the PCM heat ransfer enhancement research. Please upload the numerical data and experimental data into their related folders. This database can also be used for sharing and reviewing the other's code. You should create a sub-folder under the Numerical folder by doing that.
 
 File Format
 -----------
-Experimental and Model results should be organized in simple ASCII comma-delimited files (*.csv files) with clear header names. Note: For all submitted measurement data, please ensure that results are obtained with a data acquisition rate between 0.2 and 10 Hz. Examples of how to format data submissions, which may be used as templates, are included [here] (https://github.com/MaCFP/matl-db/tree/master/Non-charring/PMMA).
+Experimental data should be stored in simple ASCII comma-delimited files (csv files) or excel files (xls or xlsx files); numerical date should be stored in  text files (txt files) or Matlab datafiles (mat files). 
 
 File Naming
-For simplicity, please collect your files in a single folder with your INSTITUTE name [INSTITUTE]. Please save measurement results with a name indicating your INSTITUTE and the experimental apparatus used, for example: INSITUTE_TGA.csv or Institute_ConeCalorimeter_25kW.csv. Gram-scale experiments (e.g., Cone, FPA, gasification) should include this external heat flux information in the file name, as indicated above; mg-scale experiments (e.g., TGA, DSC, MCC) do not need to include heating rate in the filename as this information will be evident from reported data.
+-----------
+For experimental data, please name your file by the format: experiment number + model name + your name + date (eg. 1_1D heat transfer model_Kai_20200410.csv). For numerical data please use the format: model name + problem name + method + boundary condition + your name (eg. 2D melting_convective heat transfer_implicit_oneside heat flux_Kai.mat).
 
 File Organization
-Measurement data from repeated experiments should be saved and submitted as separate files, numbered sequentially (e.g.,INSITUTE_TGA1.csv and INSITUTE_TGA2.csv).
+-----------------
+After uploading your data, please add a description of you data in the Info file. You should start the description with your file name, and describe your file in the next line. The description should include at least experimental conditions, parameter values, assumptions, methods. 
 
-File Description
-Please also include a separate README file (.txt or .docx) that provides a description of the test conditions of all experiments conducted and submitted (see the Measurements section of Guidelines for Participation_MaCFP2020.pdf, for details on what information should be included in this file).
 
-Note, some iteration on formatting may be required before the results can be merged into the MaCFP database.
